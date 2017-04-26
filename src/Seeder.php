@@ -31,7 +31,7 @@ class Seeder extends BaseSeeder
 
 	public function createMenuEntries($menu, $menuEntries, $parentMenuEntry = null) {
 		foreach ($menuEntries as $entry) {
-			$newEntry = MenuEntry::create(['title' => $entry[0], 'href' => $entry[1], 'icon' => $entry[2]]);
+			$newEntry = MenuEntry::create(['href' => $entry[0], 'title' => $entry[1], 'icon' => $entry[2]]);
 			if ($parentMenuEntry == null) {
 				$newEntry->menu()->associate($menu);
 			} else {
