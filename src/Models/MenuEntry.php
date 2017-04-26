@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Zoomyboy\Menu\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
