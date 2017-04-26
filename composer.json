@@ -7,5 +7,10 @@
             "email": "pille@zoomyboy.de"
         }
     ],
-    "require": {}
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			{"Zoomyboy\\Menu\\": "src/"}
+		}
+	}
 }
