@@ -1,0 +1,11 @@
+{
+    "name": "zoomyboy/menu",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Philipp Lang",
+            "email": "pille@zoomyboy.de"
+        }
+    ],
+    "require": {}
+}
